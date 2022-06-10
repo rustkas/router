@@ -30,7 +30,7 @@ clean_doc:
 	@rm -f doc/erlang.png
 	@rm -f doc/edoc-info
 
-doc:  $(REBAR)
+doc: $(REBAR)
 	$(REBAR) edoc
 
 doc_private: $(REBAR)
